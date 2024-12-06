@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Quiz Game</title>
+          <link rel="stylesheet" href="css/style.css">
+          <script src="js/script.js" defer></script>
+          <script src="js/questions.js" defer></script>
+     </head>
+     <body>
+          <!-- start container  -->
+          <div class="start_container">
+               <div class="img_elm"><img src="img/Group 4.svg" alt="img"></div>
+               <div class="start_btn_elm"><button>Start Now >>></button></div>
+          </div>
+
+          <!-- Quiz container  -->
+          <div class="quiz_container hide">
+               <header>
+                    <div class="title"><img src="img/Group 4.svg" alt="img"></div>
+                    <div class="music">
+                         <div>
+                              <img class="music_on" src="img/off_sound.png" alt="img">
+                              <img class="music_off hide" src="img/on_sound.png" alt="img">
+                         </div>
+                         <div class="background_music"><audio src="img/thinking-time.mp3" loop></audio></div>
+                    </div>
+               </header>
+               <main></main>
+               <footer>
+                    <div class="total_que"></div>
+                    <button class="next_btn">Next ></button>
+               </footer>
+          </div>
+
+          <!-- Result Container  -->
+          <div class="result_container hide">
+               <header>
+                    <img src="img/Group 4.svg" alt="img">
+                    <h3>RESULT</h3>
+               </header>
+               <main>
+                    <div class="pr_w">
+                         <div class="r_percentage_w"></div>
+                         <div class="w_percentage_w"></div>
+                    </div>
+                    <div class="line_elm">
+                         <div class="left"></div>
+                         <div class="right"></div>
+                    </div>
+                    <div class="pr_elm"></div>
+               </main>
+               <footer>
+                    <div class="score_text"></div>
+                    <div class="buttons">
+                         <button class="restart"> <<< Retry</button>
+                         <button class="quit">Quit</button>
+                    </div>
+               </footer>
+          </div>
+     </body>
+</html>
